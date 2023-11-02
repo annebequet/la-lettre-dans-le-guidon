@@ -1,0 +1,5 @@
+# python generated files
+*.pyc
+
+# Local database
+*.sqlite3
