@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-//on peut supprimer ces deux lignes précédentes
-import './App.css'
+import { useEffect, useState } from 'react'
+
+
 
 function App() {
-  //const [count, setCount] = useState(0)
-
+  [count] = useState(0);
+useEffect(()=>{
+  console.log({count});
+},[count]);
   return (
    <div>
     <p>Salut je suis un futur stylée de Vélo Litteraire</p>
